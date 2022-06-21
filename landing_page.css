@@ -1,3 +1,9 @@
+*, *::before , *::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 button{
     width: 10px;
     height: 10px;
@@ -217,12 +223,17 @@ cursor: pointer;
 }
 
 @media only screen and (max-width:720px) {
+    *, *::before , *::after{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
     body{
-    width: 100vw;
+    width: 100%;
     }
 
     footer{
-        width: 89vw;
+        width: 110%;
     }
 
     .footer-logo{
@@ -264,7 +275,7 @@ cursor: pointer;
         margin-left: -4.5rem;
         margin-top: -0.1rem;
         background-image: url(./Huddle-landing-page-Design/images/bg-hero-mobile.svg);
-        width: 94vw;
+        width: 157%;
         
     }
 
@@ -299,7 +310,7 @@ cursor: pointer;
     }
 
     .logo2{
-        width: 23rem;
+        width: 18rem;
         height: 18rem;
         margin-top: 2rem;
     }
