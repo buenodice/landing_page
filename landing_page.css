@@ -103,7 +103,7 @@ p{
 }
 
 .parent-container2 {
-    background-image: url(./Huddle-landing-page-Design/images/bg-hero-desktop.svg);
+    background-image: url(./images/bg-hero-desktop.svg);
     background-color: hsl(193, 100%, 96%);
     padding: 2rem;
     
@@ -274,7 +274,7 @@ cursor: pointer;
     .parent-container2{
         margin-left: -4.5rem;
         margin-top: -0.1rem;
-        background-image: url(./Huddle-landing-page-Design/images/bg-hero-mobile.svg);
+        background-image: url(./images/bg-hero-mobile.svg);
         width: 157%;
         
     }
